@@ -1,0 +1,6 @@
+go_tested_binary {
+  name: "result.exe",
+  pkg: "github.com/KPI-KMD/lab1-term2/example",
+  testPkg: "github.com/KPI-KMD/lab1-term2/example/helloWorld",
+  srcs: ["**/*.go", "../go.mod"]
+} 
